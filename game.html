@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-0evSXBKJEiFNJhqvBKlxrHlnF2MRoiVmFozAIe4LlU4zSXHjjIkvwlN5T4fL8wt!z" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container mt-2">
+        <div class="quiz-app card p-4">
+            <div class="quiz-info d-flex justify-content-between mb-3">
+                <div class="bullets">
+                    <div class="spans d-flex"> 
+                    </div>
+                </div>
+                <div class="count">Score: <span class="text-primary font-weight-bold" style="font-size: large;" id="score">4</span></div>
+            </div>
+            <div id="quiz-area" class="mb-3"></div>
+            <div id="answers-area" class="mb-3"></div>
+            <button class="btn btn-primary btn-block" id="submit-button">Next</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
